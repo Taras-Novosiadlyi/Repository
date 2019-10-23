@@ -204,59 +204,59 @@ int main()
         //ls.push_back(rand() % 10);
         ls.push_back(i);
     }
-    ls.push_back(0);
+//    ls.push_back(0);
 
-    cout << "Вміст списку: ";
-    for (int i = 0; i < ls.size(); ++i) {
-        cout << ls[i] << " ";
-    }
-    cout << endl;
+//    cout << "Вміст списку: ";
+//    for (int i = 0; i < ls.size(); ++i) {
+//        cout << ls[i] << " ";
+//    }
+//    cout << endl;
 
-    cout << "Впорядкований список: ";
-    ls.sort();
+//    cout << "Впорядкований список: ";
+//    ls.sort();
 
-    for (int i = 0; i < ls.size(); ++i) {
-        cout << ls[i] << " ";
-    }
-    cout << endl;
+//    for (int i = 0; i < ls.size(); ++i) {
+//        cout << ls[i] << " ";
+//    }
+//    cout << endl;
 
-    cout << "Розмір: " << ls.size() << endl;
+//    cout << "Розмір: " << ls.size() << endl;
 
-    cout << "Додавання нового елементу на початок: ";
+//    cout << "Додавання нового елементу на початок: ";
 
-    ls.push_front(18);
+//    ls.push_front(18);
 
-    for (int i = 0; i < ls.size(); ++i) {
-        cout << ls[i] << " ";
-    }
-    cout << endl;
+//    for (int i = 0; i < ls.size(); ++i) {
+//        cout << ls[i] << " ";
+//    }
+//    cout << endl;
 
-    cout << "Додавання нового елементу в довільне місце: ";
+//    cout << "Додавання нового елементу в довільне місце: ";
 
-    ls.include(4, 31);
+//    ls.include(4, 31);
 
-    for (int i = 0; i < ls.size(); ++i) {
-        cout << ls[i] << " ";
-    }
-    cout << endl;
+//    for (int i = 0; i < ls.size(); ++i) {
+//        cout << ls[i] << " ";
+//    }
+//    cout << endl;
 
-    cout << "Розмір: " << ls.size() << endl << endl;
+//    cout << "Розмір: " << ls.size() << endl << endl;
 
-    ls.pop_back();
-    ls.pop_front();
-    ls.remove(4);
+//    ls.pop_back();
+//    ls.pop_front();
+//    ls.remove(4);
 
-    cout << "Вміст списку: ";
-    for (int i = 0; i < ls.size(); ++i) {
-        cout << ls[i] << " ";
-    }
-    cout << endl;
+//    cout << "Вміст списку: ";
+//    for (int i = 0; i < ls.size(); ++i) {
+//        cout << ls[i] << " ";
+//    }
+//    cout << endl;
 
-    cout << "Видалення списку\n\n";
+//    cout << "Видалення списку\n\n";
 
-    ls.clear();
+//    ls.clear();
 
-    cout << "Список видалено\n";
+//    cout << "Список видалено\n";
 
     return 0;
 }
